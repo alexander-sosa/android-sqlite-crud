@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.androidfinal.MainActivity">
+    <item
+        android:id="@+id/mnuListaArtistas"
+        android:orderInCategory="100"
+        android:title="Artistas..."
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mnuAgregarArtistas"
+        android:orderInCategory="100"
+        android:title="Agregar Artista"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mnuBuscarArtista"
+        android:orderInCategory="100"
+        android:title="Buscar Artista"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mnuListaCanciones"
+        android:orderInCategory="100"
+        android:title="Canciones..."
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mnuAgregarCanciones"
+        android:orderInCategory="100"
+        android:title="Agregar Cancion"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mnuBuscarCancion"
+        android:orderInCategory="100"
+        android:title="Buscar Cancion"
+        app:showAsAction="never" />
+
+</menu>
